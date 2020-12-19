@@ -10,6 +10,7 @@ Overall, the structure is easy to work in. There's very little code to have to w
 During this project I learned about:
 - ECSY SystemStateComponents
 - I've never used Pixi before. I'm pleased that rendering performance was never an issue during this. In a previous test I was able to render many thousands of animated sprites using ECSY and pixi together.
+- I'm relatively pleased with the solution I came up with for hitboxes. I draw a second invisible sprite inside the displayed one. This makes collision checking pretty easy, and by setting globals.debug to true I can see where all hitboxes are.
 
 ## Project Shortcomings
 - SpriteSystem was originally intended to mediate between ECSY and the PIXI singleton. I found myself increasingly overloading the SpriteComponent class with anything pixi might need. This seems to violate the interface segregation principle. I did consider splitting SpriteComponent into AnimatedSpriteComponent and StaticSpriteComponent. I decided against this as in other places I wanted to treat both as generic sprites. 
