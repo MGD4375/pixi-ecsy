@@ -3,7 +3,7 @@
 The purpose of this project was to work out how I might work with both pixi.js and ecsy at the same time.
 I've tested it against Chrome, and Edge. I'm aware there are problems in other browsers.
 
-Working deployment: https://pixi-ecsy.netlify.app/
+**Working deployment: https://pixi-ecsy.netlify.app/**
 
 Controls: 
 - WASD to move
