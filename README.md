@@ -5,6 +5,11 @@ I've tested it against Chrome, and Edge. I'm aware there are problems in other b
 
 Working deployment: https://pixi-ecsy.netlify.app/
 
+Controls: 
+- WASD to move
+- Space to jump
+
+
 ## Project Highlights
 Overall, the structure is easy to work in. There's very little code to have to wrap your head around in app.js. It's quick and easy to add new systems or remove old systems.
 During this project I learned about:
