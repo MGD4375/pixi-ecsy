@@ -22,3 +22,5 @@ During this project I learned about:
 I also found that I needed to access pixi sprites in a few places. I could probably go back and capture that entirely in SpriteStateComponent
 - I tended to get confused about where the natural boundaries of systems/components were. Some systems such as PlayerMovementSystem covers velocity management and is responsible for stopping collisions before they occur. Other systems such as MotionSystem is lazer focused. 
 - The biggest performance draw in the game comes from comparing the movers(Player and skeletons) against every single blocker. I suspect there's a way of merging colliders for the level walls which I haven't learned yet.
+
+![Image of Game](https://i.imgur.com/rfgo0CF.png)
