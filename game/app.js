@@ -73,8 +73,6 @@ world.registerSystem(HitBoxSystem)
 world.registerSystem(CollisionSystem)
 world.registerSystem(PlayerCollisions)
 
-
-
 PIXI.Loader.shared
   .add("sprites/adventurer.json")
   .add("sprites/items/items.json")
