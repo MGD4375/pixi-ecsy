@@ -1,0 +1,11 @@
+{
+  "name": "bayeux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Morgan",
+  "dependencies": {
+    "ecsy": "^0.4.2",
+    "pixi.js": "^5.0.0-rc"
+  }
+}
